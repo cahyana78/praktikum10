@@ -19,7 +19,10 @@ public class TestJurnal01 {
         System.setOut(new PrintStream(bos));
 
         Jurnal01.main(null);
-        assertEquals(OUTPUT[i] + "\n", bos.toString());
+		for(int i = 0; i < OUTPUT.length; i++){
+			assertEquals(OUTPUT[i] + " ", bos.toString());
+		}
+        
         
         System.setOut(originalOut);
     }
