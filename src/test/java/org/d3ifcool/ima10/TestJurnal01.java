@@ -9,7 +9,7 @@ import java.io.*;
 public class TestJurnal01 {
 
     private static final String[] OUTPUT = {
-            "1 4 9 16 25 36 49 64 81 100",
+            "1 4 9 16 25 36 49 64 81 100"
     };
 
     @Test

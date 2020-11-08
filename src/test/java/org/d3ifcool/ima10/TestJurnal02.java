@@ -9,7 +9,7 @@ import java.io.*;
 public class TestJurnal02 {
 
     private static final String[] INPUT = {
-            "1","2"
+            "1","2",
 			"3","4"
     };
     private static final String[] OUTPUT = {
